@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.1">
   <diagram name="Страница — 1" id="_GZVtZzYuqf9SnXZZn6D">
-    <mxGraphModel dx="1242" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="591" dy="351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,14 +19,14 @@
         </mxCell>
         <mxCell id="om7WiGzX-cjyccD9I0Nw-11" value="&lt;font color=&quot;#006600&quot;&gt;true&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="om7WiGzX-cjyccD9I0Nw-10">
           <mxGeometry x="0.123" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="om7WiGzX-cjyccD9I0Nw-1" value="validate countryCode by&amp;nbsp;countryId &lt;br&gt;(search in table&amp;nbsp;country&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;br&gt;&lt;/span&gt;&amp;amp;&amp;amp;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Проверка на неизвестный&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;user-agent + X-Sessia-Package&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="336" height="90" as="geometry" />
         </mxCell>
         <mxCell id="om7WiGzX-cjyccD9I0Nw-2" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;Response: 200&lt;br&gt;Send SMS 2&lt;/pre&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="55" width="190" height="60" as="geometry" />
+          <mxGeometry x="520" y="55" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="om7WiGzX-cjyccD9I0Nw-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-5" target="om7WiGzX-cjyccD9I0Nw-6">
           <mxGeometry relative="1" as="geometry" />
@@ -39,16 +39,16 @@
         <mxCell id="om7WiGzX-cjyccD9I0Nw-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-5" target="om7WiGzX-cjyccD9I0Nw-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="om7WiGzX-cjyccD9I0Nw-14" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="om7WiGzX-cjyccD9I0Nw-13">
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-14" value="&lt;font color=&quot;#4d9900&quot;&gt;true&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="om7WiGzX-cjyccD9I0Nw-13">
           <mxGeometry x="-0.0889" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="om7WiGzX-cjyccD9I0Nw-5" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;validatePhoneNumber&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="195" width="340" height="60" as="geometry" />
+          <mxGeometry x="40" y="160" width="340" height="60" as="geometry" />
         </mxCell>
         <mxCell id="om7WiGzX-cjyccD9I0Nw-6" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;Response: 403&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;Invalid phone_number&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="195" width="190" height="60" as="geometry" />
+          <mxGeometry x="520" y="160" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="om7WiGzX-cjyccD9I0Nw-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-12" target="om7WiGzX-cjyccD9I0Nw-15">
           <mxGeometry relative="1" as="geometry" />
@@ -58,11 +58,75 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-12" target="om7WiGzX-cjyccD9I0Nw-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="om7WiGzX-cjyccD9I0Nw-12" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;set locale&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(search country by&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;countryIsoCod from phone or&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;countryCode from request&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="300" width="340" height="60" as="geometry" />
+          <mxGeometry x="40" y="260" width="340" height="60" as="geometry" />
         </mxCell>
         <mxCell id="om7WiGzX-cjyccD9I0Nw-15" value="Response: 405&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;This country not supported&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(countryCode 1)&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="520" y="300" width="200" height="60" as="geometry" />
+          <mxGeometry x="520" y="260" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-18" value="&lt;span style=&quot;background-color: initial;&quot;&gt;package = from request&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="380" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-21" target="om7WiGzX-cjyccD9I0Nw-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-24" value="&lt;font color=&quot;#ff0000&quot;&gt;false&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="om7WiGzX-cjyccD9I0Nw-23">
+          <mxGeometry x="-0.0897" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-21" target="om7WiGzX-cjyccD9I0Nw-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-21" value="is countryLanguage === 7 (Вьетнамский&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="370" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-26" target="om7WiGzX-cjyccD9I0Nw-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="590" />
+              <mxPoint x="210" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-26" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; text-align: start; white-space: normal;&quot;&gt;package = &#39;not.found&#39;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="490" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-30" target="om7WiGzX-cjyccD9I0Nw-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="670" />
+              <mxPoint x="210" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-30" value="Create code for validate phone" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="41" y="600" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-32" target="om7WiGzX-cjyccD9I0Nw-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-35" value="&lt;font color=&quot;#ff0000&quot;&gt;false&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="om7WiGzX-cjyccD9I0Nw-34">
+          <mxGeometry y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-32" value="Validate request by keys&amp;nbsp;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&#39;country_id&#39;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&#39;country_code&#39;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&#39;phone_number&#39;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&#39;phone_id&#39;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="41" y="710" width="345" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-33" value="Response: 400&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;$error_keys. &#39; not found&#39;&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="520" y="710" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
