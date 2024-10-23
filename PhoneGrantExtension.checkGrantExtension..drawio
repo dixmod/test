@@ -1,9 +1,20 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.1">
   <diagram name="Страница — 1" id="_GZVtZzYuqf9SnXZZn6D">
-    <mxGraphModel dx="1461" dy="2037" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1774" dy="2223" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-96">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100.0000000000002" y="1879.9999999999995" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1482" y="1880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-96" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1334" y="1630" width="296" height="220" as="geometry" />
+        </mxCell>
         <mxCell id="om7WiGzX-cjyccD9I0Nw-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-1" target="om7WiGzX-cjyccD9I0Nw-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -25,7 +36,7 @@
         <mxCell id="om7WiGzX-cjyccD9I0Nw-1" value="validate countryCode by&amp;nbsp;countryId &lt;br&gt;(search in table&amp;nbsp;country&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;br&gt;&lt;/span&gt;&amp;amp;&amp;amp;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Проверка на неизвестный&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;user-agent + X-Sessia-Package&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="336" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="om7WiGzX-cjyccD9I0Nw-2" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;Response: 200&lt;br&gt;Send SMS 2&lt;/pre&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-2" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;Response: 200&lt;br&gt;Send SMS 2&lt;/pre&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="520" y="55" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="om7WiGzX-cjyccD9I0Nw-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-5" target="om7WiGzX-cjyccD9I0Nw-6">
@@ -47,7 +58,7 @@
         <mxCell id="om7WiGzX-cjyccD9I0Nw-5" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;validatePhoneNumber&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="160" width="340" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="om7WiGzX-cjyccD9I0Nw-6" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;Response: 403&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;Invalid phone_number&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-6" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;Response: 403&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;Invalid phone_number&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="520" y="160" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="om7WiGzX-cjyccD9I0Nw-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-12" target="om7WiGzX-cjyccD9I0Nw-15">
@@ -64,7 +75,7 @@
         <mxCell id="om7WiGzX-cjyccD9I0Nw-12" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;set locale&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(search country by&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;countryIsoCod from phone or&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;countryCode from request&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="260" width="340" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="om7WiGzX-cjyccD9I0Nw-15" value="Response: 405&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;This country not supported&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(countryCode 1)&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-15" value="Response: 405&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;This country not supported&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(countryCode 1)&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="520" y="260" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="om7WiGzX-cjyccD9I0Nw-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-18">
@@ -128,7 +139,7 @@
         <mxCell id="om7WiGzX-cjyccD9I0Nw-32" value="&lt;b&gt;Validate request&lt;/b&gt; by keys&amp;nbsp;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&#39;country_id&#39;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&#39;country_code&#39;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&#39;phone_number&#39;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&#39;phone_id&#39;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="41" y="710" width="345" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="om7WiGzX-cjyccD9I0Nw-33" value="Response: 400&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;$error_keys. &#39; not found&#39;&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-33" value="Response: 400&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;$error_keys. &#39; not found&#39;&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="520" y="710" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="om7WiGzX-cjyccD9I0Nw-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-40" target="om7WiGzX-cjyccD9I0Nw-42">
@@ -145,7 +156,7 @@
         <mxCell id="om7WiGzX-cjyccD9I0Nw-40" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;b&gt;Validate company&lt;/b&gt;&lt;br&gt;search value request key company_id &lt;br&gt;in table &#39;company&#39; &lt;br/&gt;&lt;br&gt;default SESSION&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="41" y="820" width="339" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="om7WiGzX-cjyccD9I0Nw-42" value="Response: 403&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Invalid company_id parameter&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-42" value="Response: 403&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Invalid company_id parameter&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="520" y="840" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="om7WiGzX-cjyccD9I0Nw-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-45" target="om7WiGzX-cjyccD9I0Nw-46">
@@ -168,8 +179,11 @@
         <mxCell id="om7WiGzX-cjyccD9I0Nw-46" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;search or create (is not) &lt;br&gt;phone number user in table &lt;br/&gt;user_phone_number&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="970" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="om7WiGzX-cjyccD9I0Nw-51" value="Get validation code from cache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="41" y="1090" width="340" height="60" as="geometry" />
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-51" target="om7WiGzX-cjyccD9I0Nw-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-51" value="Get validation code from cache storage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="41" y="1184" width="340" height="60" as="geometry" />
         </mxCell>
         <mxCell id="om7WiGzX-cjyccD9I0Nw-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-54" target="om7WiGzX-cjyccD9I0Nw-56">
           <mxGeometry relative="1" as="geometry" />
@@ -185,10 +199,10 @@
         <mxCell id="om7WiGzX-cjyccD9I0Nw-54" value="Check banned&lt;br&gt;and phone number in&amp;nbsp;UserPreferredAuth" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="570" y="1070" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="om7WiGzX-cjyccD9I0Nw-56" value="Response: 400&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Wrong request&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="980" y="1070" width="280" height="60" as="geometry" />
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-56" value="Response: 400&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Wrong request&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1070" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="om7WiGzX-cjyccD9I0Nw-59" value="..." style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-59" value="???" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="1169" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="om7WiGzX-cjyccD9I0Nw-61" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="om7WiGzX-cjyccD9I0Nw-1">
@@ -199,6 +213,200 @@
         </mxCell>
         <mxCell id="om7WiGzX-cjyccD9I0Nw-62" value="START" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="149" y="-60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-65" target="om7WiGzX-cjyccD9I0Nw-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-65" target="om7WiGzX-cjyccD9I0Nw-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-65" value="Compare validation codes from request and from storage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="41" y="1280" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-67" value="Response: 403&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Wrong validation code&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1280" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-69" target="om7WiGzX-cjyccD9I0Nw-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-73" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 12px;&quot;&gt;Not found&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;i&gt;/* Нет предпочтительного &lt;br&gt;способа захода по этому &lt;br&gt;номеру телефона. &lt;br&gt;Выберем вторым способом тогда */&lt;/i&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="om7WiGzX-cjyccD9I0Nw-72">
+          <mxGeometry x="-0.0507" relative="1" as="geometry">
+            <mxPoint y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-69" target="om7WiGzX-cjyccD9I0Nw-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-69" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;Get UserPreferredAuth&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1370" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-71" target="om7WiGzX-cjyccD9I0Nw-75">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="1410" />
+              <mxPoint x="830" y="1360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-77" value="&lt;font color=&quot;#cc0000&quot;&gt;count &amp;gt; 1&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="om7WiGzX-cjyccD9I0Nw-76">
+          <mxGeometry x="-0.498" y="3" relative="1" as="geometry">
+            <mxPoint x="57" y="-47" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-71" target="om7WiGzX-cjyccD9I0Nw-79">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="1410" />
+              <mxPoint x="830" y="1480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-87" value="&lt;span style=&quot;color: rgb(0, 102, 0);&quot;&gt;count == 1&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="om7WiGzX-cjyccD9I0Nw-80">
+          <mxGeometry x="0.4035" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-71" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;i&gt;получение &lt;br&gt;списока userPhone от юзеров &lt;br&gt;с аккаунтами в нужной компании&lt;/i&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1370" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-75" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;i&gt;/* Тут нужно отправить на e-mail &lt;br&gt;авторизацию для уточнения или &lt;br&gt;создание нового юзера */&lt;br&gt;&lt;/i&gt;&lt;/font&gt;&lt;i&gt;&lt;br&gt;&lt;/i&gt;Response: 404&lt;br&gt;Too many accounts&lt;/pre&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="961" y="1310" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-79" value="Create&amp;nbsp;UserPreferredAuth (company, phone)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1450" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-82" target="om7WiGzX-cjyccD9I0Nw-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-82" value="&lt;i style=&quot;font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;/*&amp;nbsp;по этому номеру нет ни у кого аккаунтов в компании.&lt;br&gt;&lt;/font&gt;&lt;/i&gt;&lt;i style=&quot;font-size: 9px; background-color: initial;&quot;&gt;&amp;nbsp; Придется создать пустого user или найти существующую пустышку, что бы подготовить к созданию нового акканута или выбора его по e-mail. */&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1570" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-85" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="om7WiGzX-cjyccD9I0Nw-82">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="1470" as="sourcePoint" />
+            <mxPoint x="850" y="1550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="830" y="1600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-88" value="&lt;span style=&quot;color: rgb(0, 102, 0);&quot;&gt;count == 0&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="om7WiGzX-cjyccD9I0Nw-85">
+          <mxGeometry x="0.4077" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-89" target="om7WiGzX-cjyccD9I0Nw-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-93" value="&lt;span style=&quot;color: rgb(0, 102, 0);&quot;&gt;count == 0&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="om7WiGzX-cjyccD9I0Nw-92">
+          <mxGeometry x="0.119" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-89" target="om7WiGzX-cjyccD9I0Nw-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-100" value="&lt;font color=&quot;#006600&quot;&gt;count &amp;gt; 0&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="om7WiGzX-cjyccD9I0Nw-99">
+          <mxGeometry x="-0.1069" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-89" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;i&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;/** Cписок userPhone от юзеров &lt;br/&gt;без аккаунтов на данном телефоне */&lt;/font&gt;&lt;/i&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1660" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-91" target="om7WiGzX-cjyccD9I0Nw-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-91" value="Создание &lt;br&gt;User (country, defaultRole, mainGroup)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="1660" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-94" value="Создание &lt;br&gt;UserPhone&amp;nbsp;(User, countryId, phoneNumber)" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="1753" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-97" target="om7WiGzX-cjyccD9I0Nw-101">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1100" y="1910" />
+              <mxPoint x="210" y="1910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-106" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="om7WiGzX-cjyccD9I0Nw-102">
+          <mxGeometry x="0.9278" y="6" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-97" value="Выбираем первый UserPhone&lt;br&gt;&lt;font color=&quot;#cc0000&quot;&gt;остальные удаляем&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1780" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-101" target="om7WiGzX-cjyccD9I0Nw-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-101" value="Поиск и удаление у других юзеров&lt;br&gt;&lt;br&gt;или создание в&lt;br&gt;&amp;nbsp;таблице&amp;nbsp;user_device_identifier&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;UserDeviceIdentifier&lt;br&gt;(phoneId, user, UserPhone)&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2010" width="340" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-104" value="&lt;font color=&quot;#cc0000&quot;&gt;Accounts ?&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="1600" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-108" target="om7WiGzX-cjyccD9I0Nw-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-112" value="&lt;font color=&quot;#cc0000&quot;&gt;true&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="om7WiGzX-cjyccD9I0Nw-111">
+          <mxGeometry x="0.0444" y="-4" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-108" target="om7WiGzX-cjyccD9I0Nw-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-108" value="Проверка на бан User accounts" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2190" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-110" value="Response: 423&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Banned&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="440" y="2190" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-114" target="om7WiGzX-cjyccD9I0Nw-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-117" value="&lt;font color=&quot;#cc0000&quot;&gt;true&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="om7WiGzX-cjyccD9I0Nw-116">
+          <mxGeometry x="-0.1635" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-114" target="om7WiGzX-cjyccD9I0Nw-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-114" value="Проверка если авторизация как касса, но нет роли&amp;nbsp;&lt;br&gt;ROLE_CASHBOX_EVATOR&amp;nbsp;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40.5" y="2300" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-115" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Response: 423&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 9px; background-color: initial;&quot;&gt;Только пользователи с правом&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 9px; background-color: initial;&quot;&gt;&quot;Касса. Эвотор&quot; могут выполнить&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 9px; background-color: initial;&quot;&gt;вход через это приложение...&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="440" y="2300" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-119" target="om7WiGzX-cjyccD9I0Nw-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-122" value="&lt;font color=&quot;#cc0000&quot;&gt;true&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="om7WiGzX-cjyccD9I0Nw-121">
+          <mxGeometry x="0.0103" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-119" value="/**&amp;nbsp;Проверим, что в найденной компании у пользователя не бизнес-аккаунт */" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40.5" y="2400" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-120" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Response: 404&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 9px; background-color: initial;&quot;&gt;You have only business account for this company&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="440" y="2400" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-124" target="om7WiGzX-cjyccD9I0Nw-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-124" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;/** Если новый пользователь. &lt;br/&gt;Отправить ему пуш */&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40.5" y="2500" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.499;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-119" target="om7WiGzX-cjyccD9I0Nw-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-128" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2640" width="340" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
