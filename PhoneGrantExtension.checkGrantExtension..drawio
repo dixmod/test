@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.1">
   <diagram name="Страница — 1" id="_GZVtZzYuqf9SnXZZn6D">
-    <mxGraphModel dx="2070" dy="2399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1461" dy="2037" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -219,6 +219,11 @@
         <mxCell id="om7WiGzX-cjyccD9I0Nw-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-65" target="om7WiGzX-cjyccD9I0Nw-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-135" value="&lt;font color=&quot;#cc0000&quot;&gt;false&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="om7WiGzX-cjyccD9I0Nw-68">
+          <mxGeometry x="-0.0791" y="1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="om7WiGzX-cjyccD9I0Nw-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-65" target="om7WiGzX-cjyccD9I0Nw-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -302,7 +307,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="om7WiGzX-cjyccD9I0Nw-89" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;i&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;/** Cписок userPhone от юзеров &lt;br/&gt;без аккаунтов на данном телефоне */&lt;/font&gt;&lt;/i&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="om7WiGzX-cjyccD9I0Nw-89" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;i&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;/** Получение Cписка userPhone от юзеров &lt;br&gt;без аккаунтов на данном телефоне */&lt;/font&gt;&lt;/i&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="960" y="1660" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="om7WiGzX-cjyccD9I0Nw-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-91" target="om7WiGzX-cjyccD9I0Nw-94">
@@ -335,9 +340,6 @@
         </mxCell>
         <mxCell id="om7WiGzX-cjyccD9I0Nw-101" value="Поиск и удаление у других юзеров&lt;br&gt;&lt;br&gt;или создание в&lt;br&gt;&amp;nbsp;таблице&amp;nbsp;user_device_identifier&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;UserDeviceIdentifier&lt;br&gt;(phoneId, user, UserPhone)&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="40" y="2010" width="340" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="om7WiGzX-cjyccD9I0Nw-104" value="&lt;font color=&quot;#cc0000&quot;&gt;Accounts ?&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1435" y="1600" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="om7WiGzX-cjyccD9I0Nw-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="om7WiGzX-cjyccD9I0Nw-108" target="om7WiGzX-cjyccD9I0Nw-110">
           <mxGeometry relative="1" as="geometry" />
